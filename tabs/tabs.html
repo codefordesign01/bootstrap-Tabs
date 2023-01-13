@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style type="text/css">
+      body{
+        background-color: #082f34;
+      }
+      .nav{
+        border-color: blue !important;
+      }
+      .nav-link.active{
+        border-color: blue blue white !important;
+        
+      }
+      .nav-link{
+        color: #082f34 !important;
+        font-weight: 700;
+      }
+      .nav-link:hover{
+        border-color: blue !important;
+      }
+    </style>
+    <title>Tabs</title>
+  </head>
+  <body>
+    <div class="container py-5">
+       <div class="row">
+        <div class="col-12 py-3">
+          <h1 class="text-white text-center">Filter Products with Bootstrap Tabs | Full Responsive</h1>
+        </div>
+         <div class="col-12 ">
+             <div class="bg-white rounded p-2">
+               <ul class="nav nav-tabs justify-content-center ">
+                <li class="nav-item ">
+                  <a class="nav-link active" data-bs-toggle="tab" href="#all">All Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#latest">Latest</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#week">Papular</a>
+                </li>
+              </ul>
+           <div class="row">
+             <div class="col-12">
+               <div class="tab-content p-4 ">
+                 <div id="all" class="tab-pane fade in active show">
+                    <div class="row">
+                     <div class="col-lg-3 col-md-6 col-sm-10 my-4">
+                       <div class="card">
+                         <img src="media/product_05.jpg" alt="">
+                         <div class="card-body">
+                           <h3 class="card-title">Product name</h3>
+                           <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, autem?</p>
+                           <button class="btn btn-outline-success">Read More</button>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-10 my-4">
+                       <div class="card">
+                         <img src="media/product_02.jpg" alt="">
+                         <div class="card-body">
+                           <h3 class="card-title">Product name</h3>
+                           <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, autem?</p>
+                           <button class="btn btn-outline-success">Read More</button>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-10 my-4">
+                       <div class="card">
+                         <img src="media/product_03.jpg" alt="">
+                         <div class="card-body">
+                           <h3 class="card-title">Product name</h3>
+                           <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, autem?</p>
+                           <button class="btn btn-outline-success">Read More</button>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-10 my-4">
+                       <div class="card">
+                         <img src="media/product_04.jpg" alt="">
+                         <div class="card-body">
+                           <h3 class="card-title">Product name</h3>
+                           <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, autem?</p>
+                           <button class="btn btn-outline-success">Read More</button>
+                         </div>
+                       </div>
+                     </div>
+                    </div>
+                 </div>
+                  <div id="latest" class="tab-pane fade ">
+                    <div class="row">
+                     <div class="col-lg-3 col-md-6 col-sm-10 my-4">
+                       <div class="card">
+                         <img src="media/product_05.jpg" alt="">
+                         <div class="card-body">
+                           <h3 class="card-title">Product name</h3>
+                           <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, autem?</p>
+                           <button class="btn btn-outline-success">Read More</button>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-10 my-4">
+                       <div class="card">
+                         <img src="media/product_03.jpg" alt="">
+                         <div class="card-body">
+                           <h3 class="card-title">Product name</h3>
+                           <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, autem?</p>
+                           <button class="btn btn-outline-success">Read More</button>
+                         </div>
+                       </div>
+                     </div>
+                    
+                    </div>
+                 </div>
+                  <div id="week" class="tab-pane fade ">
+                    <div class="row">
+                     <div class="col-lg-3 col-md-6 col-sm-10 my-4">
+                       <div class="card">
+                         <img src="media/product_06.jpg" alt="">
+                         <div class="card-body">
+                           <h3 class="card-title">Product name</h3>
+                           <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, autem?</p>
+                           <button class="btn btn-outline-success">Read More</button>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-10 my-4">
+                       <div class="card">
+                         <img src="media/product_02.jpg" alt="">
+                         <div class="card-body">
+                           <h3 class="card-title">Product name</h3>
+                           <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, autem?</p>
+                           <button class="btn btn-outline-success">Read More</button>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-10 my-4">
+                       <div class="card">
+                         <img src="media/product_04.jpg" alt="">
+                         <div class="card-body">
+                           <h3 class="card-title">Product name</h3>
+                           <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, autem?</p>
+                           <button class="btn btn-outline-success">Read More</button>
+                         </div>
+                       </div>
+                     </div>
+                     
+                 </div>
+
+               </div>
+             </div>
+           </div>
+         </div>
+             </div>
+       </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
